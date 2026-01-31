@@ -1,108 +1,108 @@
-# 🚀 AI-Driven UI Quality Platform
+# RUN - AI-Driven UI Quality Platform
 
 [![Playwright Tests](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions/workflows/playwright.yml/badge.svg)](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions/workflows/playwright.yml)
 
-Plataforma de QA orientada a IA para regressão visual, contratos de API e automação End-to-End (E2E). Este framework integra conceitos avançados de Engenharia de Software e Gestão de Negócios Digitais para garantir entregas resilientes.
+Plataforma de QA orientada a IA para regressÃ£o visual, contratos de API e automaÃ§Ã£o End-to-End (E2E). Este framework integra conceitos avanÃ§ados de Engenharia de Software e GestÃ£o de NegÃ³cios Digitais para garantir entregas resilientes.
 
-## 🚀 Dashboard de Resultados (Fase 1 & 2)
+## RUN - Dashboard de Resultados (Fase 1 & 2)
 
 | Categoria | Testes Realizados | Status | Ambiente |
 | :--- | :---: | :---: | :--- |
 | **Interface (UI)** | 60 | ? Passou | Desktop & Mobile |
 | **Contrato de API** | 05 | ? Passou | REST / HTTP |
 | **IA Visual** | 05 | ? Passou | Multi-OS (Win/Linux) |
-| **Total de Cobertura** | **70** | 🚀 **100%** | **CI/CD Integrado** |
+| **Total de Cobertura** | **70** | RUN - **100%** | **CI/CD Integrado** |
 
-## 🚀 Evidências de Execução
-Para garantir a transparência e auditabilidade (conceitos de BI da ESPM), cada execução gera evidências automáticas:
+## RUN - EvidÃªncias de ExecuÃ§Ã£o
+Para garantir a transparÃªncia e auditabilidade (conceitos de BI da ESPM), cada execuÃ§Ã£o gera evidÃªncias automÃ¡ticas:
 
-1. **Relatório HTML Interativo**: [Acesse a aba Actions do GitHub](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions) para baixar o `playwright-report`.
-2. **Vídeos das Sessões**: Gravei 100% dos fluxos críticos para análise de bugs.
-3. **Snapshots de IA**: Comparações de pixel-perfect entre Windows (Desenvolvimento) e Linux (Produção).
+1. **RelatÃ³rio HTML Interativo**: [Acesse a aba Actions do GitHub](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions) para baixar o `playwright-report`.
+2. **VÃ­deos das SessÃµes**: Gravei 100% dos fluxos crÃ­ticos para anÃ¡lise de bugs.
+3. **Snapshots de IA**: ComparaÃ§Ãµes de pixel-perfect entre Windows (Desenvolvimento) e Linux (ProduÃ§Ã£o).
 
-## ?🚀 Estrutura do Projeto
+## ?RUN - Estrutura do Projeto
 * `e2e/smoke-tests`: 10 CTs principais de interface.
-* `e2e/api-contract.spec.ts`: Validação de integridade de dados e assets.
+* `e2e/api-contract.spec.ts`: ValidaÃ§Ã£o de integridade de dados e assets.
 * `.github/workflows`: Pipeline automatizado com auto-commit de snapshots.
 
 ---
-*Projeto desenvolvido como parte do aprimoramento contínuo em Master de Gestão de Negócios Digitais (ESPM) e MBA em Engenharia de Software (USP).*
-## 🚀 Prova de Valor: Visual AI em Ação
+*Projeto desenvolvido como parte do aprimoramento contÃ­nuo em Master de GestÃ£o de NegÃ³cios Digitais (ESPM) e MBA em Engenharia de Software (USP).*
+## RUN - Prova de Valor: Visual AI em AÃ§Ã£o
 
-Para mitigar a falta de visibilidade, nossa plataforma expõe as camadas de decisão da IA:
+Para mitigar a falta de visibilidade, nossa plataforma expÃµe as camadas de decisÃ£o da IA:
 
-### 1. Regressão Visual (Diff Analysis)
-Quando ocorre uma falha visual, o framework gera automaticamente uma imagem de comparação:
-* **Expected**: A imagem mestre (baseline) salva no repositório.
-* **Actual**: O que o robô viu durante a execução no CI/CD.
-* **Diff**: Uma sobreposição em vermelho destacando o erro exato de pixel ou layout.
+### 1. RegressÃ£o Visual (Diff Analysis)
+Quando ocorre uma falha visual, o framework gera automaticamente uma imagem de comparaÃ§Ã£o:
+* **Expected**: A imagem mestre (baseline) salva no repositÃ³rio.
+* **Actual**: O que o robÃ´ viu durante a execuÃ§Ã£o no CI/CD.
+* **Diff**: Uma sobreposiÃ§Ã£o em vermelho destacando o erro exato de pixel ou layout.
 
-### 2. Auditabilidade de Execução
-Qualquer usuário ou entusiasta de QA pode validar o domínio técnico acessando:
-* **[Artifacts]**: Relatórios HTML completos com o status de cada um dos 70 testes.
-* **[Videos]**: Cada falha visual ou funcional possui um vídeo anexo para análise de causa raiz.
-* **[Logs]**: Histórico detalhado de rede (API) e console do navegador.
+### 2. Auditabilidade de ExecuÃ§Ã£o
+Qualquer usuÃ¡rio ou entusiasta de QA pode validar o domÃ­nio tÃ©cnico acessando:
+* **[Artifacts]**: RelatÃ³rios HTML completos com o status de cada um dos 70 testes.
+* **[Videos]**: Cada falha visual ou funcional possui um vÃ­deo anexo para anÃ¡lise de causa raiz.
+* **[Logs]**: HistÃ³rico detalhado de rede (API) e console do navegador.
 
-> **Nota Técnica**: A IA Visual aqui atua na camada de "Percepção de Interface", garantindo que a integridade do design seja mantida em 5 navegadores simultâneos, algo impossível de validar manualmente com eficiência.
-## 🚀 Evidências de Execução e IA Visual
+> **Nota TÃ©cnica**: A IA Visual aqui atua na camada de "PercepÃ§Ã£o de Interface", garantindo que a integridade do design seja mantida em 5 navegadores simultÃ¢neos, algo impossÃ­vel de validar manualmente com eficiÃªncia.
+## RUN - EvidÃªncias de ExecuÃ§Ã£o e IA Visual
 
-Para garantir a transparência total, cada rodada de teste no CI/CD gera artefatos auditáveis que comprovam a integridade da plataforma:
+Para garantir a transparÃªncia total, cada rodada de teste no CI/CD gera artefatos auditÃ¡veis que comprovam a integridade da plataforma:
 
-### 1. Regressão Visual (Visual AI Proof)
+### 1. RegressÃ£o Visual (Visual AI Proof)
 Abaixo, descrevemos como o framework valida o layout:
-* **Baseline**: Imagem mestre capturada em ambiente estável.
+* **Baseline**: Imagem mestre capturada em ambiente estÃ¡vel.
 * **Diff Analysis**: Em caso de falha, a IA gera um "diff" destacando em vermelho desvios de pixel, garantindo que o design system seja respeitado.
 
-### 2. Relatórios e Vídeos (Audit Trail)
-Qualquer usuário ou entusiasta de QA pode validar a execução real acessando a aba **[Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions)** deste repositório:
-* **Vídeos de Execução**: Gravamos 100% dos 70 cenários, permitindo visualizar o comportamento do robô em Desktop e Mobile.
-* **Playwright Trace Viewer**: Um log técnico detalhado que permite navegar frame a frame por cada comando e requisição de rede.
+### 2. RelatÃ³rios e VÃ­deos (Audit Trail)
+Qualquer usuÃ¡rio ou entusiasta de QA pode validar a execuÃ§Ã£o real acessando a aba **[Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions)** deste repositÃ³rio:
+* **VÃ­deos de ExecuÃ§Ã£o**: Gravamos 100% dos 70 cenÃ¡rios, permitindo visualizar o comportamento do robÃ´ em Desktop e Mobile.
+* **Playwright Trace Viewer**: Um log tÃ©cnico detalhado que permite navegar frame a frame por cada comando e requisiÃ§Ã£o de rede.
 * **HTML Report**: Um dashboard completo com o status de sucesso de cada navegador testado (Chromium, Firefox, Webkit).
 
-> **Dica técnica para execução**: Para ver o relatório localmente, basta rodar `npx playwright show-report` após executar os testes.
-## 🚀 Casos de Uso e Fluxos de Negócio (E2E)
+> **Dica tÃ©cnica para execuÃ§Ã£o**: Para ver o relatÃ³rio localmente, basta rodar `npx playwright show-report` apÃ³s executar os testes.
+## RUN - Casos de Uso e Fluxos de NegÃ³cio (E2E)
 
-Nossa suíte de testes cobre a jornada crítica do usuário no **Sauce Demo**, garantindo resiliência funcional e visual:
+Nossa suÃ­te de testes cobre a jornada crÃ­tica do usuÃ¡rio no **Sauce Demo**, garantindo resiliÃªncia funcional e visual:
 
-* **Autenticação**: Login com diferentes perfis (standard, problem, performance_glitch).
-* **E-commerce Core**: Fluxo completo de adição ao carrinho, remoção e validação de contagem de itens.
-* **Checkout Journey**: Fluxo ponta a ponta desde a inserção de dados de entrega até a página de sucesso.
-* **Navegação Crítica**: Validação de integridade do menu lateral e links de redes sociais.
+* **AutenticaÃ§Ã£o**: Login com diferentes perfis (standard, problem, performance_glitch).
+* **E-commerce Core**: Fluxo completo de adiÃ§Ã£o ao carrinho, remoÃ§Ã£o e validaÃ§Ã£o de contagem de itens.
+* **Checkout Journey**: Fluxo ponta a ponta desde a inserÃ§Ã£o de dados de entrega atÃ© a pÃ¡gina de sucesso.
+* **NavegaÃ§Ã£o CrÃ­tica**: ValidaÃ§Ã£o de integridade do menu lateral e links de redes sociais.
 
-## 🚀 Arquitetura de Regressão Visual e IA
+## RUN - Arquitetura de RegressÃ£o Visual e IA
 
-O framework não faz apenas um "print". Ele opera sob uma lógica de **Engenharia de Percepção**:
+O framework nÃ£o faz apenas um "print". Ele opera sob uma lÃ³gica de **Engenharia de PercepÃ§Ã£o**:
 
-* **Estrutura de Snapshots**: Armazenamos baselines específicos por OS (`-linux.png` e `-win32.png`) para evitar conflitos de renderização entre Dev e CI.
-* **Threshold de Precisão**: Configuramos um `maxDiffPixelRatio: 0.1` e `threshold: 0.2` no `playwright.config.ts`. Isso permite que a IA ignore variações irrelevantes de antialiasing de hardware enquanto detecta mudanças reais de layout.
-* **Baseline Auto-Sincronizado**: O CI/CD possui inteligência para atualizar os baselines via `npx playwright test --update-snapshots` e realizar o auto-commit no repositório.
+* **Estrutura de Snapshots**: Armazenamos baselines especÃ­ficos por OS (`-linux.png` e `-win32.png`) para evitar conflitos de renderizaÃ§Ã£o entre Dev e CI.
+* **Threshold de PrecisÃ£o**: Configuramos um `maxDiffPixelRatio: 0.1` e `threshold: 0.2` no `playwright.config.ts`. Isso permite que a IA ignore variaÃ§Ãµes irrelevantes de antialiasing de hardware enquanto detecta mudanÃ§as reais de layout.
+* **Baseline Auto-Sincronizado**: O CI/CD possui inteligÃªncia para atualizar os baselines via `npx playwright test --update-snapshots` e realizar o auto-commit no repositÃ³rio.
 
-## 🚀 Métricas de Execução Industrial (CI/CD)
+## RUN - MÃ©tricas de ExecuÃ§Ã£o Industrial (CI/CD)
 
-| Métrica | Valor Obtido |
+| MÃ©trica | Valor Obtido |
 | :--- | :--- |
 | **Total de Testes** | 70 (UI + API + Mobile) |
 | **Taxa de Sucesso** | 100% (Pass: 70 | Fail: 0) |
-| **Tempo Médio CI** | ~3m 40s (Execução em paralelo) |
-| **Visual Diffs** | 0 Detectados (Após calibração de Baseline) |
-| **Artefatos Gerados** | Vídeos, Traces e Snapshots (Disponíveis em Actions) |
+| **Tempo MÃ©dio CI** | ~3m 40s (ExecuÃ§Ã£o em paralelo) |
+| **Visual Diffs** | 0 Detectados (ApÃ³s calibraÃ§Ã£o de Baseline) |
+| **Artefatos Gerados** | VÃ­deos, Traces e Snapshots (DisponÃ­veis em Actions) |
 
-## 🚀 Fluxo CI/CD Interno
+## RUN - Fluxo CI/CD Interno
 1. **Trigger**: Push na `main` ou `Pull Request`.
 2. **Environment**: Ubuntu Latest (Dockerized Playwright).
-3. **Execution**: Rodagem em paralelo com 1 worker no CI para estabilidade máxima.
-4. **Auto-Fix**: Geração e Push automático de snapshots de Linux caso não existam, eliminando erros de "Missing Snapshot".
-## 🖼️ Resultados Visuais (Visual AI em AÃ§Ã£o)
+3. **Execution**: Rodagem em paralelo com 1 worker no CI para estabilidade mÃ¡xima.
+4. **Auto-Fix**: GeraÃ§Ã£o e Push automÃ¡tico de snapshots de Linux caso nÃ£o existam, eliminando erros de "Missing Snapshot".
+## IMAGE - Resultados Visuais (Visual AI em AÃƒÂ§ÃƒÂ£o)
 
-Para garantir que a interface permaneÃ§a Ã­ntegra em diferentes resoluÃ§Ãµes e sistemas operacionais, o framework utiliza comparaÃ§Ã£o de pixels. Abaixo, exemplificamos os artefatos gerados:
+Para garantir que a interface permaneÃƒÂ§a ÃƒÂ­ntegra em diferentes resoluÃƒÂ§ÃƒÂµes e sistemas operacionais, o framework utiliza comparaÃƒÂ§ÃƒÂ£o de pixels. Abaixo, exemplificamos os artefatos gerados:
 
-| Baseline (ReferÃªncia) | Atual (ExecuÃ§Ã£o) | DiferenÃ§a (Diff) |
+| Baseline (ReferÃƒÂªncia) | Atual (ExecuÃƒÂ§ÃƒÂ£o) | DiferenÃƒÂ§a (Diff) |
 | :---: | :---: | :---: |
 | ![Baseline](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Atual](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Visual Diff](https://via.placeholder.com/300x200/ff0000/ffffff?text=Visual+Diff+Overlay) |
 
-> **Nota TÃ©cnica**: Os snapshots acima (`-chromium-linux.png`) sÃ£o gerados automaticamente pelo pipeline no [GitHub Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions). O sistema compara a imagem mestre com a versÃ£o atual e destaca qualquer desvio de layout superior ao *threshold* configurado.
+> **Nota TÃƒÂ©cnica**: Os snapshots acima (`-chromium-linux.png`) sÃƒÂ£o gerados automaticamente pelo pipeline no [GitHub Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions). O sistema compara a imagem mestre com a versÃƒÂ£o atual e destaca qualquer desvio de layout superior ao *threshold* configurado.
 
-### ðŸŽ¥ EvidÃªncias Adicionais
-* **VÃ­deos de ExecuÃ§Ã£o**: DisponÃ­veis nos artefatos de cada workflow para anÃ¡lise de UX.
-* **Playwright Trace Viewer**: RelatÃ³rio tÃ©cnico detalhado com linha do tempo de rede e DOM.
+### Ã°Å¸Å½Â¥ EvidÃƒÂªncias Adicionais
+* **VÃƒÂ­deos de ExecuÃƒÂ§ÃƒÂ£o**: DisponÃƒÂ­veis nos artefatos de cada workflow para anÃƒÂ¡lise de UX.
+* **Playwright Trace Viewer**: RelatÃƒÂ³rio tÃƒÂ©cnico detalhado com linha do tempo de rede e DOM.
 
