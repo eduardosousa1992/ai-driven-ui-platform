@@ -34,3 +34,4 @@ O framework utiliza comparação de pixels para garantir a integridade da interf
 
 ---
 *Projeto desenvolvido por Eduardo Lima de Sousa como parte do aprimoramento contínuo em Gestão de Negócios Digitais (ESPM) e Engenharia de Software (USP).*
+
