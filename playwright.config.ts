@@ -1,7 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 /**
- * See https://playwright.dev/docs/test-configuration.
+ * Configuração de Elite - Foco em Compatibilidade Cross-OS e Evidências
  */
 export default defineConfig({
   testDir: './e2e',
@@ -15,6 +15,14 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Repórter HTML para visualizar os resultados */
   reporter: 'html',
+
+  /* AJUSTE DE TOLERÂNCIA VISUAL: Crucial para rodar em Windows e Linux simultaneamente */
+  expect: {
+    toHaveScreenshot: {
+      maxDiffPixelRatio: 0.1, // Aceita até 10% de diferença de pixels entre sistemas
+      threshold: 0.2,         // Sensibilidade da cor (evita falhas por antialiasing)
+    },
+  },
   
   /* Configurações compartilhadas para todos os projetos */
   use: {
@@ -33,24 +41,20 @@ export default defineConfig({
     },
   },
 
-  /* Configuração para os principais navegadores */
+  /* Configuração para os principais navegadores e resoluções */
   projects: [
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },
-
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
-
-    /* Exemplos de Mobile (Descomentado para valorizar o portfólio na Fase 1) */
     {
       name: 'Mobile Chrome',
       use: { ...devices['Pixel 5'] },
