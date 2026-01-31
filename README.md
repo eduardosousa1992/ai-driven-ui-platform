@@ -44,3 +44,19 @@ Recrutadores podem validar o domínio técnico acessando:
 * **[Logs]**: Histórico detalhado de rede (API) e console do navegador.
 
 > **Nota Técnica**: A IA Visual aqui atua na camada de "Percepção de Interface", garantindo que a integridade do design seja mantida em 5 navegadores simultâneos, algo impossível de validar manualmente com eficiência.
+## 🔍 Evidências de Execução e IA Visual
+
+Para garantir a transparência total, cada rodada de teste no CI/CD gera artefatos auditáveis que comprovam a integridade da plataforma:
+
+### 1. Regressão Visual (Visual AI Proof)
+Abaixo, descrevemos como o framework valida o layout:
+* **Baseline**: Imagem mestre capturada em ambiente estável.
+* **Diff Analysis**: Em caso de falha, a IA gera um "diff" destacando em vermelho desvios de pixel, garantindo que o design system seja respeitado.
+
+### 2. Relatórios e Vídeos (Audit Trail)
+Recrutadores podem validar a execução real acessando a aba **[Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions)** deste repositório:
+* **Vídeos de Execução**: Gravamos 100% dos 70 cenários, permitindo visualizar o comportamento do robô em Desktop e Mobile.
+* **Playwright Trace Viewer**: Um log técnico detalhado que permite navegar frame a frame por cada comando e requisição de rede.
+* **HTML Report**: Um dashboard completo com o status de sucesso de cada navegador testado (Chromium, Firefox, Webkit).
+
+> **Dica para Recrutadores**: Para ver o relatório localmente, basta rodar `npx playwright show-report` após executar os testes.
