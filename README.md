@@ -17,7 +17,7 @@ Plataforma de QA orientada a IA para regressão visual, contratos de API e autom
 Para garantir a transparência e auditabilidade (conceitos de BI da ESPM), cada execução gera evidências automáticas:
 
 1. **Relatório HTML Interativo**: [Acesse a aba Actions do GitHub](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions) para baixar o `playwright-report`.
-2. **Vídeos das Sessões**: Gravamos 100% dos fluxos críticos para análise de bugs.
+2. **Vídeos das Sessões**: Gravei 100% dos fluxos críticos para análise de bugs.
 3. **Snapshots de IA**: Comparações de pixel-perfect entre Windows (Desenvolvimento) e Linux (Produção).
 
 ## 🏗️ Estrutura do Projeto
