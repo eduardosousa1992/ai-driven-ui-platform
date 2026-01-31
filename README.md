@@ -27,3 +27,20 @@ Para garantir a transparência e auditabilidade (conceitos de BI da ESPM), cada 
 
 ---
 *Projeto desenvolvido como parte do aprimoramento contínuo em Master de Gestão de Negócios Digitais (ESPM) e MBA em Engenharia de Software (USP).*
+## 🔍 Prova de Valor: Visual AI em Ação
+
+Para mitigar a falta de visibilidade, nossa plataforma expõe as camadas de decisão da IA:
+
+### 1. Regressão Visual (Diff Analysis)
+Quando ocorre uma falha visual, o framework gera automaticamente uma imagem de comparação:
+* **Expected**: A imagem mestre (baseline) salva no repositório.
+* **Actual**: O que o robô viu durante a execução no CI/CD.
+* **Diff**: Uma sobreposição em vermelho destacando o erro exato de pixel ou layout.
+
+### 2. Auditabilidade de Execução
+Recrutadores podem validar o domínio técnico acessando:
+* **[Artifacts]**: Relatórios HTML completos com o status de cada um dos 70 testes.
+* **[Videos]**: Cada falha visual ou funcional possui um vídeo anexo para análise de causa raiz.
+* **[Logs]**: Histórico detalhado de rede (API) e console do navegador.
+
+> **Nota Técnica**: A IA Visual aqui atua na camada de "Percepção de Interface", garantindo que a integridade do design seja mantida em 5 navegadores simultâneos, algo impossível de validar manualmente com eficiência.
