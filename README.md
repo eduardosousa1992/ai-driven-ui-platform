@@ -102,7 +102,7 @@ Para garantir que a interface permaneÃ§a Ã­ntegra em diferentes resoluÃ§Ã
 
 > **Nota TÃ©cnica**: Os snapshots acima (`-chromium-linux.png`) sÃ£o gerados automaticamente pelo pipeline no [GitHub Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions). O sistema compara a imagem mestre com a versÃ£o atual e destaca qualquer desvio de layout superior ao *threshold* configurado.
 
-### ðŸŽ¥ EvidÃªncias Adicionais
+### EvidÃªncias Adicionais
 * **VÃ­deos de ExecuÃ§Ã£o**: DisponÃ­veis nos artefatos de cada workflow para anÃ¡lise de UX.
 * **Playwright Trace Viewer**: RelatÃ³rio tÃ©cnico detalhado com linha do tempo de rede e DOM.
 
