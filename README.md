@@ -92,3 +92,16 @@ O framework n�o faz apenas um "print". Ele opera sob uma l�gica de **Engenharia 
 2. **Environment**: Ubuntu Latest (Dockerized Playwright).
 3. **Execution**: Rodagem em paralelo com 1 worker no CI para estabilidade m�xima.
 4. **Auto-Fix**: Gera��o e Push autom�tico de snapshots de Linux caso n�o existam, eliminando erros de "Missing Snapshot".
+## 🖼️ Resultados Visuais (Visual AI em Ação)
+
+Para garantir que a interface permaneça íntegra em diferentes resoluções e sistemas operacionais, o framework utiliza comparação de pixels. Abaixo, exemplificamos os artefatos gerados:
+
+| Baseline (Referência) | Atual (Execução) | Diferença (Diff) |
+| :---: | :---: | :---: |
+| ![Baseline](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Atual](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Visual Diff](https://via.placeholder.com/300x200/ff0000/ffffff?text=Visual+Diff+Overlay) |
+
+> **Nota Técnica**: Os snapshots acima (`-chromium-linux.png`) são gerados automaticamente pelo pipeline no [GitHub Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions). O sistema compara a imagem mestre com a versão atual e destaca qualquer desvio de layout superior ao *threshold* configurado.
+
+### 🎥 Evidências Adicionais
+* **Vídeos de Execução**: Disponíveis nos artefatos de cada workflow para análise de UX.
+* **Playwright Trace Viewer**: Relatório técnico detalhado com linha do tempo de rede e DOM.
