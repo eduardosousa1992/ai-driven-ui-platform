@@ -1,4 +1,4 @@
-﻿# 🚀 AI-Driven UI Quality Platform
+# 🚀 AI-Driven UI Quality Platform
 
 [![Playwright Tests](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions/workflows/playwright.yml/badge.svg)](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions/workflows/playwright.yml)
 
