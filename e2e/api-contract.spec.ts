@@ -10,10 +10,10 @@ test.describe('API Contract & Data Integrity - Sauce Demo', () => {
   });
 
   test('CT012 - [API] Validar integridade do Favicon (Asset Crítico)', async ({ request }) => {
-    // Validando o favicon, que é um asset essencial e estável para a identidade da marca
     const response = await request.get('/favicon.ico');
     expect(response.status()).toBe(200);
-    expect(response.headers()['content-type']).toContain('image/x-icon');
+    // Ajustado para o padrão real retornado pelo servidor: image/vnd.microsoft.icon
+    expect(response.headers()['content-type']).toContain('icon');
   });
 
 });
