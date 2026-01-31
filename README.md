@@ -92,7 +92,7 @@ O framework não faz apenas um "print". Ele opera sob uma lógica de **Engenhari
 2. **Environment**: Ubuntu Latest (Dockerized Playwright).
 3. **Execution**: Rodagem em paralelo com 1 worker no CI para estabilidade máxima.
 4. **Auto-Fix**: Geração e Push automático de snapshots de Linux caso não existam, eliminando erros de "Missing Snapshot".
-## ðŸ–¼ï¸ Resultados Visuais (Visual AI em AÃ§Ã£o)
+## 🖼️ Resultados Visuais (Visual AI em AÃ§Ã£o)
 
 Para garantir que a interface permaneÃ§a Ã­ntegra em diferentes resoluÃ§Ãµes e sistemas operacionais, o framework utiliza comparaÃ§Ã£o de pixels. Abaixo, exemplificamos os artefatos gerados:
 
