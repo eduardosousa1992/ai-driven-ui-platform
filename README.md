@@ -42,3 +42,17 @@ Este repositório apresenta uma **plataforma de automação de testes end-to-end
 
 **Autor: Eduardo Sousa**
 QA Automation Engineer | SDET (USP & ESPM)
+
+---
+
+## 🗺️ Roadmap de Evolução Técnica (Visão de Gestão)
+
+Como parte da estratégia de crescimento desta plataforma, os próximos marcos de engenharia são:
+
+### Q1 2026: Observabilidade e BI
+- [ ] **Dashboards de Tendência**: Integração de histórico de execução via Grafana/Prometheus para análise de estabilidade (BI ESPM).
+- [ ] **Notificações Inteligentes**: Alertas automáticos via Slack/Teams integrados ao pipeline de falha.
+
+### Q2 2026: Inteligência e Escalabilidade
+- [ ] **Auto-healing**: Implementação de seletores resilientes baseados em IA generativa para reduzir manutenção de scripts.
+- [ ] **Testes de Performance (Shift-Right)**: Integração de métricas de Web Vitals diretamente no fluxo de CI/CD.
