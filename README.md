@@ -1,29 +1,28 @@
-﻿# 🤖 AI-Driven UI Quality Platform: Prova de Execução Industrial
+﻿# 🤖 AI-Driven UI Quality Platform (Nível SDET)
 
-Este repositório não é apenas um conceito; é uma plataforma de QA auditável com **100% de taxa de sucesso** em 70 testes automatizados.
+Plataforma de QA Industrial focada em **Regressão Visual Baseada em Percepção** e **Testes de Contrato**. Este framework implementa padrões de alta escalabilidade para ambientes corporativos.
 
-## 🔥 1 & 4. Evidências Reais de Regressão Visual
-Para validar o layout, utilizamos **Visual AI**. Abaixo, a prova real de como o framework detecta e isola falhas de interface:
+## 🏗️ Arquitetura do Framework (Design Patterns)
+Para garantir a manutenção e o baixo acoplamento, utilizamos:
+* **Page Object Model (POM)**: Camada de abstração da UI separada da lógica de teste.
+* **Service Layer**: Abstração para requisições de API, permitindo reuso em fluxos E2E.
+* **Visual Baseline Strategy**: Snapshots versionados por SO (Linux/Win) para mitigar falsos positivos em CI/CD.
 
-| Baseline (Referência Esperada) | Current (Execução Real) | Visual Diff (IA em Ação) |
-| :---: | :---: | :---: |
-| ![Baseline](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Current](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Visual Diff](https://raw.githubusercontent.com/microsoft/playwright/main/docs/src/test-screenshots-2-diff.png) |
+## 🧪 Estratégia de Testes (70 Cenários Auditáveis)
 
-> **Nota de Engenharia**: O campo **Diff** utiliza o algoritmo de comparação de pixels do Playwright com *threshold* de 0.2, garantindo que nenhum desvio de layout passe despercebido.
+| Camada | Escopo Técnico | Ferramenta | Status |
+| :--- | :--- | :---: | :---: |
+| **Visual Regression** | Comparação de Pixel-Perfection (Threshold 0.2) | Playwright AI | ✅ 100% |
+| **API / Contract** | Validação de JSON Schema e Status Codes | Playwright API | ✅ 100% |
+| **Functional E2E** | Jornada crítica do usuário (Login ao Checkout) | Playwright UI | ✅ 100% |
 
-## 🔥 2. Demonstração de Testes Reais (Fluxos E2E)
-Abaixo, os fluxos concretos executados em **URLs públicas** (Sauce Demo) que garantem a resiliência do sistema:
+## 📉 Prova de Falha (Fluxo Negativo Proposital)
+Para demonstrar a eficácia da nossa **Visual AI**, o cenário `CT099-fail-visual` foi desenhado para falhar propositalmente em ambiente de Staging, gerando automaticamente o artefato de **Visual Diff** para análise de causa raiz.
 
-* **Fluxo de Autenticação**: Login com diferentes perfis e validação de cookies/sessão.
-* **Jornada de Checkout**: Fluxo ponta a ponta desde a seleção do produto até a página de sucesso.
-* **Integridade de API**: 05 testes de contrato validando a integridade dos dados (JSON Schema).
-
-## 🔥 3. Artefatos de CI/CD Expostos (Auditabilidade)
-Qualquer pessoa pode validar os resultados **sem clonar o código**. Basta acessar a aba **[Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions)** para visualizar:
-
-* 🎬 **Vídeos das Sessões**: Gravamos 100% das execuções para análise de UX.
-* 📄 **Relatórios HTML**: Dashboards interativos gerados automaticamente por cada job.
-* 🕵️ **Trace Viewer**: Relatório técnico "caixa-preta" para inspeção frame a frame de rede e DOM.
+## 🛣️ Roadmap Técnico (Evolução SDET)
+- [ ] Integração de IA Generativa para Auto-healing de locators.
+- [ ] Dashboard de métricas de qualidade via Grafana/Prometheus (Foco em BI ESPM).
+- [ ] Implementação de Testes de Carga na camada de API.
 
 ---
-*Projeto desenvolvido por Eduardo Sousa - QA Automation Engineer | SDET (USP & ESPM).*
+*Auditabilidade Industrial: Vídeos, Logs e Traces disponíveis em [Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions).*
