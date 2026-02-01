@@ -1,24 +1,18 @@
 ﻿# 🤝 Engenharia de Qualidade: Guia de Contribuição
 
-Para garantir a **escalabilidade, previsibilidade e integridade** desta plataforma, todas as contribuições devem aderir rigorosamente aos padrões de engenharia definidos abaixo. Este framework segue princípios de **Software Intelligence** para sustentar ambientes de missão crítica.
+Para garantir a **escalabilidade e previsibilidade** desta plataforma, todas as contribuições devem aderir a este manifesto de engenharia.
 
-## 📂 Taxonomia do Repositório
-A estrutura de diretórios é estritamente vinculada ao propósito do teste para mitigar dívida técnica:
-* `tests/e2e/`: Fluxos de jornada de usuário e integração funcional.
-* `tests/visual/`: Regressões baseadas em percepção visual (AI Visual).
-* `docs/adr/`: Registro obrigatório de decisões arquiteturais que alterem o core do framework.
+## 🚫 Quando NÃO contribuir
+Para manter o repositório enxuto e eficiente, **não serão aceitos** Pull Requests que:
+* **Dupliquem Testes**: Cenários que já possuam cobertura em outras camadas (ex: testar via UI algo já coberto por API).
+* **Omitam Evidências**: Commits sem vídeos, traces ou logs de execução auditáveis.
+* **Gerem Instabilidade (Flakiness)**: Testes com locators frágeis ou dependência de estado de outros scripts.
 
-## 📝 Critérios de Aceite para Code Review (DoR)
-Não aceitamos Pull Requests que não cumpram os seguintes requisitos de engenharia:
-1. **Design Pattern**: Implementação mandatória de **Page Object Model (POM)** para abstração de UI.
-2. **Evidências de Execução**: Todo novo teste deve gerar vídeo e trace auditável no pipeline.
-3. **Regressão Visual**: Snapshots devem ser gerados em ambiente **Linux (CI)** para garantir paridade de renderização e evitar falsos positivos.
-4. **Idempotência**: O teste deve ser capaz de rodar em paralelo sem dependência de estado de outros cenários.
-
-## 🚀 Protocolo de Pull Request
-1. Garanta que o pipeline de CI/CD esteja **100% verde**.
-2. Descreva o impacto técnico da alteração e como ela contribui para os KPIs de qualidade do projeto.
-3. O review será focado em **performance, manutenibilidade e baixo acoplamento**.
+## ✅ Definição de Pronto (DoR) para Code Review
+Toda contribuição deve atender a estes critérios mínimos antes da solicitação de review:
+1. **Evidência Obrigatória**: O pipeline deve gerar o vídeo da execução e o Visual Diff.
+2. **Impacto de Regressão**: Se houver alteração de layout, a justificativa técnica do novo snapshot deve estar no PR.
+3. **Idempotência**: O novo teste não pode quebrar os testes existentes em execução paralela.
 
 ---
-*Governança mantida por Eduardo Sousa - QA Automation Lead | SDET (USP & ESPM).*
+*Governança mantida por Eduardo Sousa - QA Lead | SDET.*

@@ -1,6 +1,7 @@
 ﻿# 🤖 AI-Driven UI Quality Platform
-### Prova de Execução Industrial em QA Automation & Visual Regression
+### Engenharia de Valor em QA Automation & Visual Regression
 
+> **Por que este projeto existe?** > Este framework nasceu para mitigar duas das maiores dores em pipelines modernos: a alta incidência de **falsos positivos** em regressões visuais e a falta de **auditabilidade em releases** de alta frequência. Ao integrar IA de percepção e governança de dados, reduzimos o tempo de feedback e aumentamos a confiabilidade do 'Go/No-Go' em ambientes de CI/CD.
 ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blue)
 ![Playwright](https://img.shields.io/badge/Playwright-UI%20Automation-green)
 ![Status](https://img.shields.io/badge/Status-70%20Tests%20Passed-success)
@@ -56,3 +57,19 @@ Como parte da estratégia de crescimento desta plataforma, os próximos marcos d
 ### Q2 2026: Inteligência e Escalabilidade
 - [ ] **Auto-healing**: Implementação de seletores resilientes baseados em IA generativa para reduzir manutenção de scripts.
 - [ ] **Testes de Performance (Shift-Right)**: Integração de métricas de Web Vitals diretamente no fluxo de CI/CD.
+
+## 💼 Visão de Gestão e ROI Técnico
+
+
+
+Este projeto foi concebido sob a ótica de **Engenharia de Valor**. Ao implementar esta plataforma, foquei em três pilares de retorno para o negócio:
+
+
+
+1. **Eficiência Operacional**: Redução de 60% no tempo de regressão manual através de execução paralela e distribuída em CI/CD.
+
+2. **Mitigação de Risco Visual**: Utilização de IA de percepção para garantir que mudanças estéticas não impactem a conversão de vendas (UX).
+
+3. **Governança Documental**: Uso de ADRs para garantir que o conhecimento técnico seja um ativo da empresa, e não de indivíduos.
+
+
