@@ -1,6 +1,12 @@
 ﻿# 🤖 AI-Driven UI Quality Platform
 ### Engenharia de Valor em QA Automation & Visual Regression
 
+![Build Status](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions/workflows/playwright-ci.yml/badge.svg)
+![Playwright](https://img.shields.io/badge/Playwright-UI%20Automation-green)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strong%20Typing-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+---
 > **Por que este projeto existe?** > Este framework nasceu para mitigar duas das maiores dores em pipelines modernos: a alta incidência de **falsos positivos** em regressões visuais e a falta de **auditabilidade em releases** de alta frequência. Ao integrar IA de percepção e governança de dados, reduzimos o tempo de feedback e aumentamos a confiabilidade do 'Go/No-Go' em ambientes de CI/CD.
 ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blue)
 ![Playwright](https://img.shields.io/badge/Playwright-UI%20Automation-green)
@@ -73,3 +79,9 @@ Este projeto foi concebido sob a ótica de **Engenharia de Valor**. Ao implement
 3. **Governança Documental**: Uso de ADRs para garantir que o conhecimento técnico seja um ativo da empresa, e não de indivíduos.
 
 
+
+## 🔍 Evidências Visuais Reais (Visual AI)
+
+| Baseline (Esperado) | Current (Executado) | Visual Diff (Diferença) |
+| :---: | :---: | :---: |
+| ![Baseline](docs/evidences/baseline.png) | ![Current](docs/evidences/current.png) | ![Diff](docs/evidences/diff.png) |
