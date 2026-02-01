@@ -1,28 +1,44 @@
-﻿# 🤖 AI-Driven UI Quality Platform (Nível SDET)
+﻿# 🤖 AI-Driven UI Quality Platform
+### Prova de Execução Industrial em QA Automation & Visual Regression
 
-Plataforma de QA Industrial focada em **Regressão Visual Baseada em Percepção** e **Testes de Contrato**. Este framework implementa padrões de alta escalabilidade para ambientes corporativos.
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blue)
+![Playwright](https://img.shields.io/badge/Playwright-UI%20Automation-green)
+![Status](https://img.shields.io/badge/Status-70%20Tests%20Passed-success)
 
-## 🏗️ Arquitetura do Framework (Design Patterns)
-Para garantir a manutenção e o baixo acoplamento, utilizamos:
-* **Page Object Model (POM)**: Camada de abstração da UI separada da lógica de teste.
-* **Service Layer**: Abstração para requisições de API, permitindo reuso em fluxos E2E.
-* **Visual Baseline Strategy**: Snapshots versionados por SO (Linux/Win) para mitigar falsos positivos em CI/CD.
-
-## 🧪 Estratégia de Testes (70 Cenários Auditáveis)
-
-| Camada | Escopo Técnico | Ferramenta | Status |
-| :--- | :--- | :---: | :---: |
-| **Visual Regression** | Comparação de Pixel-Perfection (Threshold 0.2) | Playwright AI | ✅ 100% |
-| **API / Contract** | Validação de JSON Schema e Status Codes | Playwright API | ✅ 100% |
-| **Functional E2E** | Jornada crítica do usuário (Login ao Checkout) | Playwright UI | ✅ 100% |
-
-## 📉 Prova de Falha (Fluxo Negativo Proposital)
-Para demonstrar a eficácia da nossa **Visual AI**, o cenário `CT099-fail-visual` foi desenhado para falhar propositalmente em ambiente de Staging, gerando automaticamente o artefato de **Visual Diff** para análise de causa raiz.
-
-## 🛣️ Roadmap Técnico (Evolução SDET)
-- [ ] Integração de IA Generativa para Auto-healing de locators.
-- [ ] Dashboard de métricas de qualidade via Grafana/Prometheus (Foco em BI ESPM).
-- [ ] Implementação de Testes de Carga na camada de API.
+Este repositório apresenta uma **plataforma de automação de testes end-to-end** com foco em **qualidade visual, funcional e auditabilidade**, utilizando **Playwright**, **TypeScript** e **CI/CD**.
 
 ---
-*Auditabilidade Industrial: Vídeos, Logs e Traces disponíveis em [Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions).*
+
+## 🎯 Objetivos Técnicos do Projeto
+- Validar **fluxos críticos E2E** em aplicações web reais (ex: Sauce Demo).
+- Detectar **quebras visuais de layout** através de regressão visual com IA de percepção.
+- Garantir **auditabilidade completa** via relatórios, vídeos e screenshots.
+
+---
+
+## 🧪 Tecnologias Utilizadas
+- **Playwright**: Core de automação multi-browser e mobile.
+- **TypeScript**: Tipagem forte para código escalável e seguro.
+- **GitHub Actions**: Orquestração de CI/CD e armazenamento de artefatos.
+- **Visual Regression**: Comparação de pixels com threshold de 0.2 para mitigação de falsos positivos.
+- **Playwright API**: Testes de contrato e integridade de dados via JSON Schema.
+
+---
+
+## 🔥 Evidências Reais de Regressão Visual (Visual AI)
+
+| Baseline (Referência) | Execução Atual (Real) | Diferença (Diff) |
+| :---: | :---: | :---: |
+| ![Baseline](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Current](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Visual Diff](https://raw.githubusercontent.com/microsoft/playwright/main/docs/src/test-screenshots-2-diff.png) |
+
+---
+
+## 📦 Artefatos de CI/CD (Disponíveis em Actions)
+- 🎥 **Vídeos**: Gravação de 100% dos fluxos executados.
+- 📄 **Relatórios HTML**: Dashboards interativos de cada rodada.
+- 🔍 **Trace Viewer**: Análise detalhada de rede e DOM frame a frame.
+
+---
+
+**Autor: Eduardo Sousa**
+QA Automation Engineer | SDET (USP & ESPM)
