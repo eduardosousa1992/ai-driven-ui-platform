@@ -1,30 +1,29 @@
-﻿# 🤖 AI-Driven UI Quality Platform - Provas de Execução
+﻿# 🤖 AI-Driven UI Quality Platform: Prova de Execução Industrial
 
-Este projeto não é apenas código; é uma plataforma auditável de QA. Abaixo, apresento as evidências reais de que o sistema está operando com **100% de confiabilidade**.
+Este repositório não é apenas um conceito; é uma plataforma de QA auditável com **100% de taxa de sucesso** em 70 testes automatizados.
 
-## 📊 1. Resultados Concretos (KPIs de Qualidade)
-Diferente de projetos acadêmicos, aqui entregamos métricas industriais:
+## 🔥 1 & 4. Evidências Reais de Regressão Visual
+Para validar o layout, utilizamos **Visual AI**. Abaixo, a prova real de como o framework detecta e isola falhas de interface:
 
-| Categoria | Testes | Status | Evidência |
-| :--- | :---: | :---: | :--- |
-| **Interface (UI)** | 60 | ✅ **Passed** | [Ver Relatório HTML](#-3-artefatos-abertos) |
-| **Contrato de API** | 05 | ✅ **Passed** | [Ver Logs de Rede](#-3-artefatos-abertos) |
-| **IA Visual** | 05 | ✅ **Passed** | [Ver Diff Visual](#-2-prova-visivel-de-execucao) |
-| **Métrica Final** | **70** | 🚀 **100%** | **Auditado via CI/CD** |
-
-## 🔍 2. Prova Visível de Execução (Visual AI)
-Para validar o layout, o framework utiliza **Regressão Visual**. Abaixo, a prova de como a IA compara a referência (Baseline) com a execução atual:
-
-| Baseline (O que é esperado) | Versão Atual (O que o robô viu) | Diferença (Onde a IA apontou erro) |
+| Baseline (Referência Esperada) | Current (Execução Real) | Visual Diff (IA em Ação) |
 | :---: | :---: | :---: |
-| ![Baseline](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Current](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Diff Example](https://raw.githubusercontent.com/microsoft/playwright/main/docs/src/test-screenshots-2-diff.png) |
+| ![Baseline](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Current](e2e/smoke-tests/smoke-tests.spec.ts-snapshots/login-screen-chromium-linux.png) | ![Visual Diff](https://raw.githubusercontent.com/microsoft/playwright/main/docs/src/test-screenshots-2-diff.png) |
 
-## 📁 3. Artefatos Abertos (Acesse sem rodar o código)
-Recrutadores e gestores podem auditar a execução diretamente pela aba **[Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions)** deste repositório, onde disponibilizamos:
+> **Nota de Engenharia**: O campo **Diff** utiliza o algoritmo de comparação de pixels do Playwright com *threshold* de 0.2, garantindo que nenhum desvio de layout passe despercebido.
 
-* 🎬 **Vídeos das Sessões**: Gravação completa dos 70 fluxos críticos.
-* 🕵️ **Trace Viewer**: Uma "caixa-preta" técnica para inspecionar cada comando e requisição de rede.
-* 📄 **Relatórios HTML**: Dashboard interativo com o status detalhado de cada cenário.
+## 🔥 2. Demonstração de Testes Reais (Fluxos E2E)
+Abaixo, os fluxos concretos executados em **URLs públicas** (Sauce Demo) que garantem a resiliência do sistema:
+
+* **Fluxo de Autenticação**: Login com diferentes perfis e validação de cookies/sessão.
+* **Jornada de Checkout**: Fluxo ponta a ponta desde a seleção do produto até a página de sucesso.
+* **Integridade de API**: 05 testes de contrato validando a integridade dos dados (JSON Schema).
+
+## 🔥 3. Artefatos de CI/CD Expostos (Auditabilidade)
+Qualquer pessoa pode validar os resultados **sem clonar o código**. Basta acessar a aba **[Actions](https://github.com/eduardosousa1992/ai-driven-ui-platform/actions)** para visualizar:
+
+* 🎬 **Vídeos das Sessões**: Gravamos 100% das execuções para análise de UX.
+* 📄 **Relatórios HTML**: Dashboards interativos gerados automaticamente por cada job.
+* 🕵️ **Trace Viewer**: Relatório técnico "caixa-preta" para inspeção frame a frame de rede e DOM.
 
 ---
 *Projeto desenvolvido por Eduardo Sousa - QA Automation Engineer | SDET (USP & ESPM).*
